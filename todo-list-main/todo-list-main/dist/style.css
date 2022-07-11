@@ -1,8 +1,8 @@
 :root {
-  --primary-dark: #333;
+  --primary-dark: #ffb3b3;
   --secondary-dark: #444;
-  --primary-light: #eee;
-  --secondary-light: #ddd;
+  --primary-light: #8c7373;
+  --secondary-light: rgb(177, 133, 133);
 }
 
 *,
@@ -146,7 +146,7 @@ i {
 
 .button-project.active,
 .button-default-project.active {
-  background-color: #ccc;
+  background-color: #fff;
   font-weight: bold;
 }
 
@@ -192,23 +192,23 @@ i {
 }
 
 .button-add-project-popup {
-  border: 1px solid #99dd99;
-  background-color: #aaffaa;
+  border: 1px solid #88cc00;
+  background-color: #c4ff4d;
   font-weight: bold;
 }
 
 .button-cancel-project-popup {
-  border: 1px solid #eeadad;
-  background-color: #ffbebe;
+  border: 1px solid #ce4242;
+  background-color: #d45c5c;
   font-weight: bold;
 }
 
 .button-add-project-popup:hover {
-  background-color: #a6f0a6;
+  background-color: #446600;
 }
 
 .button-cancel-project-popup:hover {
-  background-color: #f5b2b2;
+  background-color: #881919;
 }
 
 .project-preview {
@@ -350,8 +350,8 @@ i {
 }
 
 .button-cancel-task-popup {
-  border: 1px solid #eeadad;
-  background-color: #ffbebe;
+  border: 1px solid #ce4242;
+  background-color: #d45c5c;
   font-weight: bold;
 }
 
@@ -360,7 +360,7 @@ i {
 }
 
 .button-cancel-task-popup:hover {
-  background-color: #f5b2b2;
+  background-color: #881919;
 }
 
 /* Footer */
